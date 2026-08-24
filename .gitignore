@@ -1,0 +1,29 @@
+# Secrets — never commit
+.env
+*.env
+kaggle.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Temp / data dirs (created at runtime)
+/tmp/
+**/uploads/
+**/work/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
