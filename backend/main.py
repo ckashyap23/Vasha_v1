@@ -50,7 +50,11 @@ UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 JOBS: dict[str, dict] = {}
 JOBS_LOCK = threading.Lock()
 
-SUPPORTED_MODELS = ["qwen_base"]  # add "qwen_finetuned_v1" etc. here later
+SUPPORTED_MODELS = [
+    "Qwen2.5_3B",           # Qwen/Qwen2.5-3B-Instruct
+    "Indictrans2_1B",       # ai4bharat/indictrans2-indic-en-1B
+    "FacebookNLLB-200_600M",# facebook/nllb-200-distilled-600M
+]
 
 
 class JobStatus(BaseModel):
