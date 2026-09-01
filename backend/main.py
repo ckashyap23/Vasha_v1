@@ -53,6 +53,7 @@ JOBS_LOCK = threading.Lock()
 SUPPORTED_MODELS = [
     "Qwen2.5_3B",           # Qwen/Qwen2.5-3B-Instruct
     "Qwen3_4B",             # Qwen/Qwen3-4B
+    "Qwen3_4B_Base",        # Qwen/Qwen3-4B-Base
     "Indictrans2_1B",       # ai4bharat/indictrans2-indic-en-1B
     "FacebookNLLB-200_600M",# facebook/nllb-200-distilled-600M
 ]
